@@ -1,0 +1,21 @@
+{
+    "files": [
+        {
+            "source": "./assets-mat/compiled/_myuikit.min.js",
+            "type": "SCRIPT",
+            "size": 5.096,
+            "stopExecution": false
+        },
+        {
+            "source": "./assets-mat/compiled/_myuikit.min.css",
+            "type": "CSS",
+            "size": 10.819
+        },
+        {
+            "source": "./assets-mat/css/custom.css",
+            "type": "CSS",
+            "size": 7.336
+        }
+    ]
+
+}
