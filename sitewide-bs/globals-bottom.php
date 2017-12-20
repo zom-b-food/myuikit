@@ -7,3 +7,8 @@
 <script src="../assets-bs/js/components/jquery.filtertable.js" type="text/javascript"></script>
 <script src="../assets-bs/js/components/tablesort.js" type="text/javascript"></script>
 <script src="../assets-bs/js/components/jquery.beefup.min.js"></script>
+<script>
+    $(function () {
+        $(".preloader").delay(1400).fadeOut();
+    });
+</script>

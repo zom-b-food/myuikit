@@ -1,4 +1,12 @@
+<div class="se-pre-con"></div>
 <script>
+    //paste this code under head tag or in a seperate js file.
+    // Wait for window load
+    $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+    });
+
     $(window).scroll(function (e) {
         if ($(this).scrollTop() > 90) { // choose the value you want.
             $('#dropdownnav:hidden').slideDown();
@@ -52,7 +60,7 @@
                     <h1>SASS-ified Materialize Kit</h1>
 
                     <p class="centered">
-                        <a href="bs4-sass-kit-1.zip" class="waves-effect waves-light btn purple">Download This Kit</a>
+                        <a href="../pages-mat/materialize-sass-kit.zip" class="waves-effect waves-light btn purple">Download This Kit</a>
                     </p>
                 </div>
                 <div class="row">

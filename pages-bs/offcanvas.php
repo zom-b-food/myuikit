@@ -1,95 +1,138 @@
 <!doctype html>
 <html lang="en">
-  <head>
-      <?php include '../sitewide-bs/globals-top.php'; ?>
-      <meta name="description" content="Adam L Marsh; UI/UX Designer and Developer, www.adam-marsh.com, www.ui-design-engineering.com, www.myuikit.com, front-end web design and development.">
-      <meta name="author" content="ui-design-engineering.com, www.myuikit.com">
-    <title>Off Canvas Template for Bootstrap</title>
+    <head>
+        <?php include '../sitewide-bs/globals-top.php'; ?>
+        <meta name="description"
+              content="Adam L Marsh; UI/UX Designer and Developer, www.adam-marsh.com, www.ui-design-engineering.com, www.myuikit.com, front-end web design and development.">
+        <meta name="author" content="ui-design-engineering.com, www.myuikit.com">
+        <title>Off Canvas Template for Bootstrap</title>
+    </head>
+    <body class="sidebar-collapse">
 
-  </head>
-
-	<body class="sidebar-collapse">
-		<div class="se-pre-con"></div>
         <?php include '../sitewide-bs/header.php'; ?>
-		<p>&nbsp;</p><p>&nbsp;</p>
-    <main role="main" class="container">
-      <div class="row row-offcanvas row-offcanvas-right">
+        <p>&nbsp;</p>
 
-        <div class="col-12 col-md-9">
-          <p class="float-right d-md-none">
-            <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
-          </p>
-          <div class="jumbotron">
-            <h1>Hello, world!</h1>
-            <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
-          </div>
-          <div class="row">
-            <div class="col-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="col-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="col-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="col-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="col-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="col-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
-          </div><!--/row-->
-        </div><!--/span-->
+        <p>&nbsp;</p>
+        <main role="main" class="container">
+            <div class="row row-offcanvas row-offcanvas-right">
+                <div class="col-12 col-md-9">
+                    <p class="float-right d-md-none">
+                        <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
+                    </p>
+                    <div class="jumbotron">
+                        <h1>Hello, world!</h1>
 
-        <div class="col-6 col-md-3 sidebar-offcanvas" id="sidebar">
-          <div class="list-group">
-            <a href="#" class="list-group-item active">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-          </div>
-        </div><!--/span-->
-      </div><!--/row-->
+                        <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try
+                            some responsive-range viewport sizes to see it in action.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-lg-4">
+                            <h2>Heading</h2>
 
-      <hr>
+                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
+                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 
-    </main><!--/.container-->
+                            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        </div>
+                        <!--/span-->
+                        <div class="col-6 col-lg-4">
+                            <h2>Heading</h2>
+
+                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
+                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        </div>
+                        <!--/span-->
+                        <div class="col-6 col-lg-4">
+                            <h2>Heading</h2>
+
+                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
+                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        </div>
+                        <!--/span-->
+                        <div class="col-6 col-lg-4">
+                            <h2>Heading</h2>
+
+                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
+                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        </div>
+                        <!--/span-->
+                        <div class="col-6 col-lg-4">
+                            <h2>Heading</h2>
+
+                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
+                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        </div>
+                        <!--/span-->
+                        <div class="col-6 col-lg-4">
+                            <h2>Heading</h2>
+
+                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
+                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        </div>
+                        <!--/span-->
+                    </div>
+                    <!--/row-->
+                </div>
+                <!--/span-->
+                <div class="col-6 col-md-3 sidebar-offcanvas" id="sidebar">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">Link</a>
+                        <a href="#" class="list-group-item">Link</a>
+                        <a href="#" class="list-group-item">Link</a>
+                        <a href="#" class="list-group-item">Link</a>
+                        <a href="#" class="list-group-item">Link</a>
+                        <a href="#" class="list-group-item">Link</a>
+                        <a href="#" class="list-group-item">Link</a>
+                        <a href="#" class="list-group-item">Link</a>
+                        <a href="#" class="list-group-item">Link</a>
+                        <a href="#" class="list-group-item">Link</a>
+                    </div>
+                </div>
+                <!--/span-->
+            </div>
+            <!--/row-->
+            <hr>
+        </main>
+        <!--/.container-->
+        <div class="links-sites">
+            <a href="http://www.adam-marsh.com">Adam L Marsh www.adam-marsh.com</a>
+            <a href="http://www.adam-marsh.com">Adam L Marsh http://www.adam-marsh.com</a>
+            <a href="http://www.ui-design-engineering.com">Adam L Marsh www.ui-design-engineering.com</a>
+            <a href="http://www.ui-design-engineering.com">Adam L Marsh http://www.ui-design-engineering.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+                www.irisandpith.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+                http://www.irisandpith.com</a>
+            <a href="http://www.myuikit.com">Adam L Marsh www.myuikit.com</a>
+            <a href="http://www.myuikit.com">Adam L Marsh http://www.myuikit.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles</a>
+        </div>
         <?php include '../sitewide-bs/footer.php'; ?>
         <?php include '../sitewide-bs/globals-bottom.php'; ?>
-   <script>
+        <script>
+            $(function () {
+                'use strict'
 
-	   $(function () {
-		   'use strict'
-
-		   $('[data-toggle="offcanvas"]').on('click', function () {
-			   $('.row-offcanvas').toggleClass('active')
-		   })
-	   })
-
-
-   </script>
-
-  </body>
+                $('[data-toggle="offcanvas"]').on('click', function () {
+                    $('.row-offcanvas').toggleClass('active')
+                })
+            })
+        </script>
+    </body>
 </html>

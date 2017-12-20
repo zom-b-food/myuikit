@@ -6,7 +6,7 @@
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport'/>
         <meta name="description"
               content="Adam L Marsh; UI/UX Designer and Developer, www.adam-marsh.com, www.ui-design-engineering.com, www.myuikit.com, front-end web design and development.">
-        <meta name="author" content="ui-design-engineering.com www.myuikit.com">
+        <meta name="author" content="ui-design-engineering.com, www.myuikit.com">
         <script src="./assets-bs/js/jquery-2.1.1.js" type="text/javascript"></script>
         <script src="./assets-bs/compiled/_myuikit.min.js" type="text/javascript"></script>
         <link rel="icon" href="./assets-bs/images/ui/favicon.ico" type="image/x-icon"/>
@@ -16,77 +16,91 @@
         <link rel="stylesheet" href="./assets-bs/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="./assets-bs/compiled/_myuikit.min.css"/>
         <link rel="stylesheet" href="./assets-bs/css/custom.css"/>
-        <title>
-            www.myuikit.com [SASSified w/ Grunt]
-        </title>
-        <!--
-<?php
+        <meta name="description"
+              content="Adam L Marsh; UI/UX Designer and Developer, www.adam-marsh.com, www.ui-design-engineering.com, www.myuikit.com, front-end web design and development.">
+        <meta name="author" content="ui-design-engineering.com, www.myuikit.com">
+        <title>SASS-ified UI Kits</title>
+        <?php
 
-  function quercus_test()
-  {
-    return function_exists("quercus_version");
-  }
+        function quercus_test()
+        {
+            return function_exists("quercus_version");
+        }
 
-?>
--->
+        ?>
         <style type="text/css">
             body {
                 background-image: url('./assets-bs/images/ui/2.jpg');
+                margin-bottom: 0;
+            }
+
+
+            .page-header .container {
+
+                height: auto;
+                z-index: 1;
+                text-align: center;
+                position: relative;
+                background-color: transparent;
             }
 
             #heading-splash {
                 border-bottom: 4px solid rgba(13, 18, 28, .3) !important;
                 width: 100%;
-                top: 85px;
-            }
-
-            #starter-template {
-                margin-top: 160px !important;
+                top: 125px;
             }
 
             .page-header {
-                height: 93vh !important;
+                height: 94vh;
                 padding: 0 !important;
-                color: $smoke !important;
+                color: #dbe8eb;
                 position: relative;
                 border-bottom: none;
                 background-position: center center;
                 background-size: cover;
 
-                &:after,
-                &:before {
-                    position: absolute;
-                    z-index: 0;
-                    width: 100%;
-                    height: 100%;
-                    display: block;
-                    left: 0;
-                    top: 0;
-                    content: "";
-                }
-
-                &:before {
-                    background-color: rgba(0, 0, 0, .5);
-                }
-
-                &[filter-color="blue"] {
-                    @include linear-gradient ( rgba ( $ black, .20 ), rgba ( 94, 140, 167, 0.6 ) );
-                    }
-
+            &:after,
+            &:before {
+                position: absolute;
+                z-index: 0;
+                width: 100%;
+                height: 100%;
+                display: block;
+                left: 0;
+                top: 0;
+                content: "";
             }
 
-            footer {
-                background-color: rgba(0, 0, 0, .85) !important;
-                float: left !important;
-                margin-bottom: -61px;
+            &:before {
+                background-color: rgba(0, 0, 0, .5);
+            }
+
+            &[filter-color="blue"] {
+            @include linear-gradient ( rgba ( $ black, .20 ), rgba ( 94, 140, 167, 0.6 ) );
+            }
+
+                }
+
+            #starter-template {
+                background-color: transparent;
+                position: relative;
+                margin-top: 175px;
+                color: #ffffff;
+            }
+
+            .counter {
+                color: #d6cdcd;
+                float: left;
+                bottom: 0;
             }
 
             .message {
-                color:#8d8496;
+                color: #d6cdcd;
                 padding: 6px;
                 border: 1px rgba(4, 133, 125, .8);
                 background: rgba(32, 43, 58, .5);
-                margin-top: 126px;
+
+                text-align: center;
             }
 
             .blockquote-white {
@@ -155,6 +169,16 @@
                 color: mediumpurple;
             }
 
+            footer {
+                background-color: rgba(0, 0, 0, .85) !important;
+
+                bottom: 0;
+                width: 100%;
+                /* Set the fixed height of the footer here */
+                height: 64px;
+                line-height: 60px; /* Vertically center the text there */
+                text-align: center;
+            }
 
             #failure {
             <?php echo "display: none;"; ?>
@@ -176,8 +200,19 @@
             }
         </style>
     </head>
-    <body>
+    <body class="sidebar-collapse">
         <div class="se-pre-con"></div>
+        <script>
+            //paste this code under head tag or in a seperate js file.
+            // Wait for window load
+            $(window).load(function() {
+                // Animate loader off screen
+                $(".se-pre-con").fadeOut("slow");;
+            });
+
+
+        </script>
+
         <div class="page-header" filter-color="blue">
             <div class="page-header-image" data-parallax="true"
                  style="background-image: url('./assets-bs/images/ui/2.jpg');"></div>
@@ -209,7 +244,8 @@
                         <div class="navbar-translate">
                             <a class="navbar-brand" href="#" rel="tooltip"
                                title="Created by Adam @ www.ui-design-engineering.com" data-placement="bottom">
-                                myuikit.com <small>(sassified)</small>
+                                myuikit.com
+                                <small>(sassified)</small>
                             </a>
                             <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
                                     data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
@@ -262,8 +298,6 @@
 
                     <p class="blockquote-white">Sassified with Grunt. Responsive and Modular. Guaranteed to compile ALL
                         your scss files.</p>
-
-
                 </div>
             </header>
             <div id="starter-template">
@@ -272,69 +306,59 @@
 
                     <div class="row">
                         <div class="col-md-6">
+                            <div class="fauxcardbs bstheme"><p><a href="pages-bs/jump.php"
+                                                                  class="bs">Bootstrap</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
                             <div class="fauxcardmat mattheme"><p><a href="pages-mat/jump.php"
                                                                     class="mat">Materialize</a></p></div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="fauxcardbs bstheme"><p><a href="pages-bs/jump.php"
-                                                                        class="bs">Bootstrap</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="message" id="failure">
-                        PHP files are not being interpreted by Quercus&#153;.
-                    </div>
-                    <div class="message" id="failure_default_interpreter">
-                        PHP is being interpreted, but not by Quercus&#153;! Please check your configuration.
-                    </div>
-                    <div class="message" id="success_pro">
-                        <img src="./assets-bs/images/ui/dragonfly-tiny.png" alt="Caucho Dragonfly Logo">Congratulations!
-                        Quercus&#153; <?php if (quercus_test()) echo quercus_version(); ?> is compiling PHP pages.
-                    </div>
-                    <div class="message d-none d-md-block" id="success_open_source">
-                        <img src="./assets-bs/images/ui/dragonfly-tiny.png" alt="Caucho Dragonfly Logo">Congratulations!
-                        Quercus&#153; <?php if (quercus_test()) echo quercus_version(); ?> is interpreting PHP pages.
                     </div>
                 </div>
-                <footer class="d-none d-sm-block">
-                    <div class="container">
-                <span class="text-muted"><br/>
+            </div>
+        </div>
+        <!-- Begin page content -->
+        <div class="counter d-none d-sm-block">
+            <?php
+            $count_my_page = ("countlog.txt");
+            $hits = file($count_my_page);
+            $hits[0]++;
+            $fp = fopen($count_my_page, "w");
+            fputs($fp, "$hits[0]");
+            fclose($fp);
+            echo $hits[0];
+            ?>
+
+            <span class="message" id="failure">
+                    PHP files are not being interpreted by Quercus&#153;.
+            </span>
+            <span class="message" id="failure_default_interpreter">
+                    PHP is being interpreted, but not by Quercus&#153;! Please check your configuration.
+            </span>
+            <span class="message" id="success_pro">
+                    <img src="./assets-bs/images/ui/dragonfly-tiny.png" alt="Caucho Dragonfly Logo">
+                    Quercus&#153; <?php if (quercus_test()) echo quercus_version(); ?> is compiling PHP pages.
+            </span>
+            <span class="message d-none d-md-block" id="success_open_source">
+                    <img src="./assets-bs/images/ui/dragonfly-tiny.png" alt="Caucho Dragonfly Logo">
+                    Quercus&#153; <?php if (quercus_test()) echo quercus_version(); ?> is interpreting PHP
+                    pages.
+            </span>
+        </div>
+        <footer>
+            <div class="container">
+
+                <span class="text-muted">
+                     <br/>Created by Adam @ www.ui-design-engineering.com<br/>
 
 Resin <sup><font size="-1">&#174;</font></sup> is a registered trademark,
 and Quercus<sup>tm</sup>, Amber<sup>tm</sup>, and Hessian<sup>tm</sup>
-are trademarks of Caucho Technology.<br/>Created by Adam @ www.ui-design-engineering.com</span>
-                    </div>
-                </footer>
-                <div class="text-muted d-none d-sm-block" style="position:absolute;bottom:0;">
-                    <?php
-                    $count_my_page = ("countlog.txt");
-                    $hits = file($count_my_page);
-                    $hits[0]++;
-                    $fp = fopen($count_my_page, "w");
-                    fputs($fp, "$hits[0]");
-                    fclose($fp);
-                    echo $hits[0];
-                    ?>
-                </div>
-
-
-
+are trademarks of Caucho Technology.</span>
             </div>
-
-        </div>
-        <div class="links-sites">
-            <a href="http://www.adam-marsh.com">Adam L Marsh www.adam-marsh.com</a>
-            <a href="http://www.adam-marsh.com">Adam L Marsh http://www.adam-marsh.com</a>
-            <a href="http://www.ui-design-engineering.com">Adam L Marsh www.ui-design-engineering.com</a>
-            <a href="http://www.ui-design-engineering.com">Adam L Marsh http://www.ui-design-engineering.com</a>
-            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
-                www.irisandpith.com</a>
-            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
-                http://www.irisandpith.com</a>
-            <a href="http://www.myuikit.com">Adam L Marsh www.myuikit.com</a>
-            <a href="http://www.myuikit.com">Adam L Marsh http://www.myuikit.com</a>
-            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles</a>
-        </div>
+        </footer>
+        <script>
+        </script>
         <script src="./assets-bs/js/components/popper.min.js" type="text/javascript"></script>
         <script src="./assets-bs/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="./assets-bs/js/bootstrap-switch.js" type="text/javascript"></script>
@@ -346,4 +370,3 @@ are trademarks of Caucho Technology.<br/>Created by Adam @ www.ui-design-enginee
         <script src="./assets-bs/js/components/jquery.beefup.min.js"></script>
     </body>
 </html>
-

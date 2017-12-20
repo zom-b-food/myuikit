@@ -1,5 +1,5 @@
-@import '../components/variables';
-@import '../components/mixins';
+@import 'variables';
+@import 'mixins';
 
 html {
   position: relative;
@@ -24,7 +24,17 @@ footer {
   background-color: #f5f5f5;
 }
 
-
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../images/ui/loading.svg) center no-repeat #044a44;
+}
 /* Custom page CSS overrides
 -------------------------------------------------- */
 
@@ -38,7 +48,7 @@ footer > .container {
 }
 
 .page-header{
-  height: 80vh;
+  height: 82vh;
   padding: 0;
   color: $smoke;
   position: relative;
@@ -103,17 +113,30 @@ footer > .container {
   }
 }
 
-
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
+.preloader {
   position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
+  top: 0;
+  left: 0;
   height: 100%;
+  width: 100%;
+  display: table;
+  background-color: rgba(30, 76, 77, 0.9);
   z-index: 9999;
-  background: url(../assets-bs/images/ui/loading.svg) center no-repeat #443530;
+}
+
+.preloder-wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.preloder-inner {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#fadeinvtx  {
+  text-align:center;
 }
 
 header {
@@ -504,5 +527,5 @@ a.back-to-top {
 }
 
 .links-sites * {
-  position:absolute; margin-left:-2000px; color:transparent;
+  position:absolute; margin-left:-2000px; width:444px; color:transparent;
 }

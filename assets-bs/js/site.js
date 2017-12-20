@@ -1,7 +1,7 @@
 
 
 $(window).load(function () {
-    $(".se-pre-con").fadeOut("slow");;
+
 
     $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
 

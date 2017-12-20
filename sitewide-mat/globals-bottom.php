@@ -12,4 +12,9 @@
 <script src="../assets-mat/owl.carousel/owl.carousel.min.js"></script>
 <script src="../assets-mat/flexSlider/jquery.flexslider-min.js"></script>
 <script src="../assets-mat/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script>
+    $(function () {
+        $(".preloader").delay(3333).fadeOut();
+    });
+</script>
 

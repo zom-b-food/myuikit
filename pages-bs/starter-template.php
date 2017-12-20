@@ -9,7 +9,7 @@
   </head>
 
 	<body class="sidebar-collapse">
-		<div class="se-pre-con"></div>
+
         <?php include '../sitewide-bs/header.php'; ?>
 
     <main role="main" class="container">
@@ -20,6 +20,19 @@
       </div>
 
     </main><!-- /.container -->
+        <div class="links-sites">
+            <a href="http://www.adam-marsh.com">Adam L Marsh www.adam-marsh.com</a>
+            <a href="http://www.adam-marsh.com">Adam L Marsh http://www.adam-marsh.com</a>
+            <a href="http://www.ui-design-engineering.com">Adam L Marsh www.ui-design-engineering.com</a>
+            <a href="http://www.ui-design-engineering.com">Adam L Marsh http://www.ui-design-engineering.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+                www.irisandpith.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+                http://www.irisandpith.com</a>
+            <a href="http://www.myuikit.com">Adam L Marsh www.myuikit.com</a>
+            <a href="http://www.myuikit.com">Adam L Marsh http://www.myuikit.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles</a>
+        </div>
         <?php include '../sitewide-bs/footer.php'; ?>
         <?php include '../sitewide-bs/globals-bottom.php'; ?>
   </body>

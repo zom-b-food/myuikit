@@ -18,23 +18,23 @@ module.exports = function (grunt) {
                     consolidateMediaQueries: false
                 },
                 files: {
-                    'assets-mat/css/un-minimized-core.css': 'assets-mat/css/un-minimized-core.css'
+                    'assets-bs/css/un-minimized-core.css': 'assets-bs/css/un-minimized-core.css'
                 }
             }
         },
 
         cssmin: {
             build: {
-                src: 'assets-mat/css/un-minimized-core.css',
-                dest: 'assets-mat/compiled/<%= pkg.name %>.min.css'
+                src: 'assets-bs/css/un-minimized-core.css',
+                dest: 'assets-bs/compiled/<%= pkg.name %>.min.css'
             }
         },
 
         sass: {
             build: {
                 files: {
-                    'assets-mat/css/un-minimized-core.css': 'assets-mat/sass/site.scss',
-                    'assets-mat/css/custom.css': 'assets-mat/sass/custom.scss'
+                    'assets-bs/css/un-minimized-core.css': 'assets-bs/sass/site.scss',
+                    'assets-bs/css/custom.css': 'assets-bs/sass/custom.scss'
                     /*  not included in pgk.name.min.css  (not global enough) build these separately--not included in globals.jsp */
                     /*'assets-mat/css/components/tabs.css': 'assets-mat/sass/components/tabs.scss'*/
                     /*'assets-mat/css/components/amslides.css': 'assets-mat/sass/components/amslides.scss'*/
@@ -46,15 +46,15 @@ module.exports = function (grunt) {
         watch: {
 
             js: {
-                files: ['assets-mat/js/<%= pkg.name %>.js'],
+                files: ['assets-bs/js/<%= pkg.name %>.js'],
                 tasks: ['uglify']
             },
             css: {
-                files: ['assets-mat/sass/**/*.scss'],
+                files: ['assets-bs/sass/**/*.scss'],
                 tasks: ['buildcss']
             },
             livereload: {
-                files: ['*.php', 'assets-mat/css/*.css', 'assets-mat/js/*.js'],
+                files: ['*.php', 'assets-bs/css/*.css', 'assets-bs/js/*.js'],
                 options: {
                     livereload: true
                 }
@@ -64,8 +64,8 @@ module.exports = function (grunt) {
         uglify: {
             build: {
                 files: {
-                    'assets-mat/compiled/<%= pkg.name %>.min.js': [
-                        'assets-mat/js/site.js'
+                    'assets-bs/compiled/<%= pkg.name %>.min.js': [
+                        'assets-bs/js/site.js'
 
 
                     ]

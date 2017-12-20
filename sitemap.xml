@@ -6,24 +6,19 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/pages2/jump.php</loc>
+    <loc>http://www.myuikit.com/pages-bs/jump.php</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/pages1/jump.php</loc>
+    <loc>http://www.myuikit.com/pages-mat/jump.php</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/infinity/index.html</loc>
-    <lastmod>2017-11-22</lastmod>
+    <loc>http://www.myuikit.com/pages-bs/starter-template.php</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/templates/starter-template.php</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.myuikit.com/templates/justified-nav.php</loc>
+    <loc>http://www.myuikit.com/pages-bs/justified-nav.php</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -32,7 +27,12 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/templates/carousel.php</loc>
+    <loc>http://www.myuikit.com/infinity/index.html</loc>
+    <lastmod>2017-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-bs/carousel.php</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -41,37 +41,84 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/templates/sticky-footer.php</loc>
+    <loc>http://www.myuikit.com/pages-bs/sticky-footer.php</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/templates/signin.php</loc>
+    <loc>http://www.myuikit.com/pages-bs/signin.php</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/templates/navbars.php</loc>
+    <loc>http://www.myuikit.com/pages-bs/bs-4-sass-kit.zip</loc>
+    <lastmod>2017-12-06</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/templates/offcanvas.php</loc>
+    <loc>http://www.myuikit.com/pages-bs/navbars.php</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/templates/album.php</loc>
+    <loc>http://www.myuikit.com/pages-bs/grid.php</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/flexor/register.html</loc>
-    <lastmod>2017-11-22</lastmod>
+    <loc>http://www.myuikit.com/pages-bs/blog.php</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/pages2/bs4-sass-kit-2.zip</loc>
-    <lastmod>2017-11-25</lastmod>
+    <loc>http://www.myuikit.com/pages-bs/offcanvas.php</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/templates/grid.php</loc>
+    <loc>http://www.myuikit.com/index.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/team.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-bs/album.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/tables.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/revolution-kenburns.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/template.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/gallery.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/grid.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/more-sliders.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/blog.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/promo-box.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/forms.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/feature-box.php</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -80,28 +127,37 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/flexor/login.html</loc>
-    <lastmod>2017-11-22</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.myuikit.com/templates/blog.php</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>http://www.myuikit.com/flexor/about.html</loc>
     <lastmod>2017-11-22</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/index.php</loc>
+    <loc>http://www.myuikit.com/pages-mat/materialize-sass-kit.zip</loc>
+    <lastmod>2017-12-06</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.myuikit.com/pages1/bs4-sass-kit-1.zip</loc>
-    <lastmod>2017-11-25</lastmod>
+    <loc>http://www.myuikit.com/pages-mat/buttons.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/flexor/register.html</loc>
+    <lastmod>2017-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/tabs.php</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/flexor/login.html</loc>
+    <lastmod>2017-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.myuikit.com/pages-mat/waves.php</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
-<!--<guid value="2e1c32a3-d197-45a0-82f6-ed8989ab4125" />-->
+<!--<guid value="2c985d8e-3b2f-439e-a933-a31ef0044c41" />-->
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->

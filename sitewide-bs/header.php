@@ -1,3 +1,40 @@
+<div class="se-pre-con"></div>
+<script>
+    //paste this code under head tag or in a seperate js file.
+    // Wait for window load
+    $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+    });
+</script>
+<style type="text/css">
+    @media screen and (min-width: 572px) {
+        .onlysmall {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 571px) {
+        .onlysmall {
+            display: block;
+            border: 1px solid rgba(2, 109, 14, 0.3) !important;
+            border-radius: 2px;
+            padding: 0 30px;
+            margin-bottom: 20px;
+            background: rgba(4, 133, 125, 0.3) !important;
+            text-align: center;
+        }
+
+        ul {
+            padding-left: 0;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+    }
+</style>
 
 <header>
     <!-- Navbar -->
@@ -26,10 +63,9 @@
             <div class="navbar-translate">
                 <a class="navbar-brand" href="../index.php" rel="tooltip"
                    title="Created by Adam @ www.ui-design-engineering.com" data-placement="bottom">
-                    myuitkit.com <small>(sassified)</small>
+                    myuitkit.com
+                    <small>(sassified)</small>
                 </a>
-
-
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -70,7 +106,7 @@
                            href="mailto:web@myuikit.com">
                             <i class="fa fa-envelope"></i>
 
-                            <p<!-- class="d-lg-none d-xl-none"-->>web@myuikit.com</p>
+                            <p>web@myuikit.com</p>
                         </a>
                     </li>
                 </ul>
@@ -85,7 +121,7 @@
         <div class="container">
             <div class="pt100">
                 <h1 class="txt-white">SASS-ified BS-4 Kit</h1>
-                <a href="bs4-sass-kit-1.zip">
+                <a href="../pages-bs/bs-4-sass-kit.zip">
                     <button class="btn btn-primary btn-curved" type="button">Download This Kit</button>
                 </a>
 
@@ -101,10 +137,22 @@
                             <div id="full1" class="tab-pane fade">
                                 <div class="row tight smoke">
                                     <div class="col-sm-6">
-                                        <p class="lead">This SASS-ified BS-4 Kit download is a php website that uses server-side includes for common components like header, navigation, and footer.  You can reskin the app by merely changing the scss variables. The kit uses Grunt to compile and concatenate js and css files. Feel free to examine the grunt file and make changes as you see fit.</p>
+                                        <p class="lead">This SASS-ified BS-4 Kit download is a php website that uses
+                                            server-side includes for common components like header, navigation, and
+                                            footer. You can reskin the app by merely changing the scss variables. The
+                                            kit uses Grunt to compile and concatenate js and css files. Feel free to
+                                            examine the grunt file and make changes as you see fit.</p>
                                     </div>
                                     <div class="col-sm-6">
-                                        <p class="lead">Most elements/components are stock BS4, however I have used a few plugins that perform better than the out-of-the-box Bootstrap. Plugins used:</p><ul><li>jquery.bxslider.js</li><li>jquery.beefup.js</li><li>jquery.filtertable.js</li><li>gijgo-datepicker.js</li></ul>
+                                        <p class="lead">Most elements/components are stock BS4, however I have used a
+                                            few plugins that perform better than the out-of-the-box Bootstrap. Plugins
+                                            used:</p>
+                                        <ul>
+                                            <li>jquery.bxslider.js</li>
+                                            <li>jquery.beefup.js</li>
+                                            <li>jquery.filtertable.js</li>
+                                            <li>gijgo-datepicker.js</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -128,7 +176,6 @@
                                             <li>
                                                 <a href="../pages-bs/grid.php">Grid</a>
                                             </li>
-
                                         </ul>
                                     </div>
                                     <div class="col-sm-4">
@@ -137,7 +184,6 @@
                                             <li>
                                                 <a href="../pages-bs/justified-nav.php">Justified Nav</a>
                                             </li>
-
                                             <li>
                                                 <a href="../pages-bs/navbars.php">Navbars</a>
                                             </li>
@@ -168,6 +214,44 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="tight onlysmall smoke">
+                    <div class="col-sm-6">
+                        <h4>Stock BS-4 Templates</h4>
+                        <ul>
+                            <li>
+                                <a href="../pages-bs/album.php">Album</a>
+                            </li>
+                            <li>
+                                <a href="../pages-bs/blog.php">Blog</a>
+                            </li>
+                            <li>
+                                <a href="../pages-bs/carousel.php">Carousel</a>
+                            </li>
+                            <li>
+                                <a href="../pages-bs/offcanvas.php">Offcanvas (sidebar)</a>
+                            </li>
+                            <li>
+                                <a href="../pages-bs/grid.php">Grid</a>
+                            </li>
+                            <li>
+                                <a href="../pages-bs/justified-nav.php">Justified Nav</a>
+                            </li>
+                            <li>
+                                <a href="../pages-bs/navbars.php">Navbars</a>
+                            </li>
+                            <li>
+                                <a href="../pages-bs/signin.php">Sign-in</a>
+                            </li>
+                            <li>
+                                <a href="../pages-bs/starter-template.php">Starter
+                                    Template</a>
+                            </li>
+                            <li>
+                                <a href="../pages-bs/sticky-footer.php">Sticky Footer</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

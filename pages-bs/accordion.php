@@ -54,7 +54,19 @@
 $('.example1').beefup();
 </pre>
 
-
+    <div class="links-sites">
+        <a href="http://www.adam-marsh.com">Adam L Marsh www.adam-marsh.com</a>
+        <a href="http://www.adam-marsh.com">Adam L Marsh http://www.adam-marsh.com</a>
+        <a href="http://www.ui-design-engineering.com">Adam L Marsh www.ui-design-engineering.com</a>
+        <a href="http://www.ui-design-engineering.com">Adam L Marsh http://www.ui-design-engineering.com</a>
+        <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+            www.irisandpith.com</a>
+        <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+            http://www.irisandpith.com</a>
+        <a href="http://www.myuikit.com">Adam L Marsh www.myuikit.com</a>
+        <a href="http://www.myuikit.com">Adam L Marsh http://www.myuikit.com</a>
+        <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles</a>
+    </div>
 <script src="../assets-bs/js/jquery.min.js"></script>
 <script src="../assets-bs/js/components/jquery.beefup.min.js"></script>
 <script>

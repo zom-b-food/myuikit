@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <?php include '../sitewide-bs/globals-top.php'; ?>
-        <meta name="description" content="Adam L Marsh; UI/UX Designer and Developer, www.adam-marsh.com, www.ui-design-engineering.com, www.myuikit.com, front-end web design and development.">
+        <meta name="description"
+              content="Adam L Marsh; UI/UX Designer and Developer, www.adam-marsh.com, www.ui-design-engineering.com, www.myuikit.com, front-end web design and development.">
         <meta name="author" content="ui-design-engineering.com, www.myuikit.com">
         <title>www.myuikit.com - Bootstrap 4 </title>
         <script src="../assets-bs/js/components/gijgo-datepicker.js" type="text/javascript"></script>
@@ -12,7 +13,7 @@
         <link rel="stylesheet" href="../assets-bs/css/components/nouislider.css">
     </head>
     <body class="sidebar-collapse" id="top">
-        <div class="se-pre-con"></div>
+
         <?php include '../sitewide-bs/a-header.php'; ?>
         <main role="main">
             <section class="container wow fadeInUp">
@@ -25,6 +26,7 @@
                             <h4 class="beefup__head">
                                 Item 1
                             </h4>
+
                             <div class="beefup__body">
                                 <p>
                                     The sheer absence of sound and motion gave the moment an eerie tension. The dark
@@ -38,6 +40,7 @@
                             <h4 class="beefup__head">
                                 Item 2
                             </h4>
+
                             <div class="beefup__body">
                                 <p>A reformation takes place in the winter. Even house plants notice it. The ficus
                                     dropped
@@ -46,6 +49,7 @@
                                     <h5 class="beefup__head">
                                         Nested Item
                                     </h5>
+
                                     <div class="beefup__body nested">
                                         <p>
                                             I wonder if there is any philosophy that understands the value of dreams and
@@ -147,6 +151,7 @@
             <hr/>
             <section class="container wow fadeInUp">
                 <h2>Images</h2>
+
                 <div class="row">
                     <div class="col-sm-2">
                         <p class="category">Image</p>
@@ -162,7 +167,8 @@
                     </div>
                     <div class="col-sm-2">
                         <p class="category">Circle Raised</p>
-                        <img src="../assets-bs/images/avatar.jpg" alt="Thumbnail Image" class="rounded-circle img-raised">
+                        <img src="../assets-bs/images/avatar.jpg" alt="Thumbnail Image"
+                             class="rounded-circle img-raised">
                     </div>
                 </div>
             </section>
@@ -170,7 +176,8 @@
             <section class="container wow fadeInUp">
                 <h2>Show/Hide classes &amp; CSS Specificity</h2>
 
-                <p class="category">Show/Hide Classes <span class="note">(change screen size to see breakpoints)</span></p>
+                <p class="category">Show/Hide Classes <span class="note">(change screen size to see breakpoints)</span>
+                </p>
 
                 <div class="row">
                     <div class="col-md-12">
@@ -759,7 +766,6 @@
                     </div>
                 </div>
             </section>
-
             <hr/>
             <section class="container wow fadeInUp">
                 <h2>Bars &amp; Pagination</h2>
@@ -837,7 +843,6 @@
                 </div>
             </section>
             <hr/>
-
             <section class="container wow fadeInUp">
                 <h2>Icons &amp; Typography</h2>
 
@@ -1409,13 +1414,14 @@
             <a href="http://www.adam-marsh.com">Adam L Marsh http://www.adam-marsh.com</a>
             <a href="http://www.ui-design-engineering.com">Adam L Marsh www.ui-design-engineering.com</a>
             <a href="http://www.ui-design-engineering.com">Adam L Marsh http://www.ui-design-engineering.com</a>
-            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles www.irisandpith.com</a>
-            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles http://www.irisandpith.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+                www.irisandpith.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+                http://www.irisandpith.com</a>
             <a href="http://www.myuikit.com">Adam L Marsh www.myuikit.com</a>
             <a href="http://www.myuikit.com">Adam L Marsh http://www.myuikit.com</a>
             <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles</a>
         </div>
-
         <script>
             $(function () {
 
@@ -1455,15 +1461,15 @@
             new WOW().init();
         </script>
         <div style="color:#cccccc">
-        <?php
-        $count_my_page = ("countlog-bs.txt");
-        $hits = file($count_my_page);
-        $hits[0]++;
-        $fp = fopen($count_my_page, "w");
-        fputs($fp, "$hits[0]");
-        fclose($fp);
-        echo $hits[0];
-        ?>
+            <?php
+            $count_my_page = ("countlog-bs.txt");
+            $hits = file($count_my_page);
+            $hits[0]++;
+            $fp = fopen($count_my_page, "w");
+            fputs($fp, "$hits[0]");
+            fclose($fp);
+            echo $hits[0];
+            ?>
         </div>
     </body>
 </html>

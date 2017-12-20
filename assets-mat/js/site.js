@@ -8,9 +8,9 @@
 })(jQuery); // end of jQuery name space
 
 
-$(window).bind("load", function () {
+/*$(window).bind("load", function () {
     $('#work-in-progress').fadeOut(900);
-});
+});*/
 
 
 $image = $('img.true');

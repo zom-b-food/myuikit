@@ -9,12 +9,7 @@
     </head>
 
     <body id="top">
-        <div id="work-in-progress">
-            <div class="sk-chasing-dots">
-                <div class="sk-child sk-dot1"></div>
-                <div class="sk-child sk-dot2"></div>
-            </div>
-        </div>
+
         <? include "../sitewide-mat/header.php"; ?>
 
 
@@ -309,11 +304,20 @@
             </div><!-- /.container -->
         </section>
         <!-- Flat Accordion End -->
-
+        <div class="links-sites">
+            <a href="http://www.adam-marsh.com">Adam L Marsh www.adam-marsh.com</a>
+            <a href="http://www.adam-marsh.com">Adam L Marsh http://www.adam-marsh.com</a>
+            <a href="http://www.ui-design-engineering.com">Adam L Marsh www.ui-design-engineering.com</a>
+            <a href="http://www.ui-design-engineering.com">Adam L Marsh http://www.ui-design-engineering.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+                www.irisandpith.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+                http://www.irisandpith.com</a>
+            <a href="http://www.myuikit.com">Adam L Marsh www.myuikit.com</a>
+            <a href="http://www.myuikit.com">Adam L Marsh http://www.myuikit.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles</a>
+        </div>
         <? include "../sitewide-mat/footer.php"; ?>
-
-
-
         <? include "../sitewide-mat/globals-bottom.php"; ?>
     </body>
 

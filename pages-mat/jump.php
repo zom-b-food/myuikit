@@ -6,12 +6,7 @@
         <title>www.myuikit.com - Materialize</title>
     </head>
     <body>
-        <div id="work-in-progress">
-            <div class="sk-chasing-dots">
-                <div class="sk-child sk-dot1"></div>
-                <div class="sk-child sk-dot2"></div>
-            </div>
-        </div>
+
         <? include "../sitewide-mat/a-header.php"; ?>
 
         <!--button style start-->
@@ -99,6 +94,167 @@
             </div>
         </section>
         <!-- button style end -->
+        <hr/>
+        <section class="section-padding">
+            <div class="container">
+                <h2>Accordions</h2>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="mb-30">Accordion Style One</h4>
+
+                        <div class="panel-group flat-accordion brand-accordion z-depth-1" id="flat-one">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#flat-one" href="#collapse-flat-one">
+                                            Matrix Mission
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="collapse-flat-one" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores
+                                        placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt
+                                        commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed
+                                        veritatis?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#flat-one"
+                                           href="#collapse-flat-two">
+                                            Super Creative
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="collapse-flat-two" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores
+                                        placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt
+                                        commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed
+                                        veritatis?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#flat-one"
+                                           href="#collapse-flat-three">
+                                            Awesome Customer Servicers
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="collapse-flat-three" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#flat-one"
+                                           href="#collapse-flat-four">
+                                            Hard Working Team
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="collapse-flat-four" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-md-6 -->
+                    <div class="col-md-6">
+                        <h4 class="mb-30">Accordion Style Two</h4>
+
+                        <div class="panel-group feature-accordion pink-accordion icon plus-icon" id="accordion-two">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion-two" href="#collapse-v2-one">
+                                            Matrix Mission
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="collapse-v2-one" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores
+                                        placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt
+                                        commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed
+                                        veritatis?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion-two"
+                                           href="#collapse-v2-two">
+                                            Super Creative
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="collapse-v2-two" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores
+                                        placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt
+                                        commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed
+                                        veritatis?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion-two"
+                                           href="#collapse-v2-three">
+                                            Awesome Customer Servicers
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="collapse-v2-three" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion-two"
+                                           href="#collapse-v2-four">
+                                            Hard Working Team
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div id="collapse-v2-four" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-md-6 -->
+                </div>
+            </div>
+        </section>
         <hr/>
         <section class="section-padding ">
             <div class="container">
@@ -266,167 +422,7 @@
             <!-- /.container -->
         </section>
         <hr/>
-        <section class="section-padding">
-            <div class="container">
-                <h2>Accordions</h2>
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <h4 class="mb-30">Accordion Style One</h4>
-
-                        <div class="panel-group flat-accordion brand-accordion z-depth-1" id="flat-one">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#flat-one" href="#collapse-flat-one">
-                                            Matrix Mission
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="collapse-flat-one" class="panel-collapse collapse in">
-                                    <div class="panel-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores
-                                        placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt
-                                        commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed
-                                        veritatis?
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#flat-one"
-                                           href="#collapse-flat-two">
-                                            Super Creative
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="collapse-flat-two" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores
-                                        placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt
-                                        commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed
-                                        veritatis?
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#flat-one"
-                                           href="#collapse-flat-three">
-                                            Awesome Customer Servicers
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="collapse-flat-three" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                        brunch.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#flat-one"
-                                           href="#collapse-flat-four">
-                                            Hard Working Team
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="collapse-flat-four" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                        brunch.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.col-md-6 -->
-                    <div class="col-md-6">
-                        <h4 class="mb-30">Accordion Style Two</h4>
-
-                        <div class="panel-group feature-accordion pink-accordion icon plus-icon" id="accordion-two">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion-two" href="#collapse-v2-one">
-                                            Matrix Mission
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="collapse-v2-one" class="panel-collapse collapse in">
-                                    <div class="panel-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores
-                                        placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt
-                                        commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed
-                                        veritatis?
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion-two"
-                                           href="#collapse-v2-two">
-                                            Super Creative
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="collapse-v2-two" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores
-                                        placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt
-                                        commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed
-                                        veritatis?
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion-two"
-                                           href="#collapse-v2-three">
-                                            Awesome Customer Servicers
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="collapse-v2-three" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                        brunch.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">
-                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion-two"
-                                           href="#collapse-v2-four">
-                                            Hard Working Team
-                                        </a>
-                                    </h3>
-                                </div>
-                                <div id="collapse-v2-four" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-                                        brunch.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.col-md-6 -->
-                </div>
-            </div>
-        </section>
-        <hr/>
         <section class="section-padding">
             <div class="container">
                 <h2>Alerts</h2>
@@ -1157,6 +1153,19 @@
             fclose($fp);
             echo $hits[0];
             ?>
+        </div>
+        <div class="links-sites">
+            <a href="http://www.adam-marsh.com">Adam L Marsh www.adam-marsh.com</a>
+            <a href="http://www.adam-marsh.com">Adam L Marsh http://www.adam-marsh.com</a>
+            <a href="http://www.ui-design-engineering.com">Adam L Marsh www.ui-design-engineering.com</a>
+            <a href="http://www.ui-design-engineering.com">Adam L Marsh http://www.ui-design-engineering.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+                www.irisandpith.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+                http://www.irisandpith.com</a>
+            <a href="http://www.myuikit.com">Adam L Marsh www.myuikit.com</a>
+            <a href="http://www.myuikit.com">Adam L Marsh http://www.myuikit.com</a>
+            <a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles</a>
         </div>
         <? include "../sitewide-mat/footer.php"; ?>
         <? include "../sitewide-mat/globals-bottom.php"; ?>

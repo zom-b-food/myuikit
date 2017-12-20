@@ -8,7 +8,7 @@
   </head>
 
 	<body class="sidebar-collapse">
-		<div class="se-pre-con"></div>
+
         <?php include '../sitewide-bs/header.php'; ?>
 
 		<main role="main" class="container">
